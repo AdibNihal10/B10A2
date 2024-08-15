@@ -19,7 +19,7 @@
 }
 .hcolor {
   color: #e6533c;
-  font-size: 2.1 rem;
+  font-size: 2.3rem;
   font-weight: 800;
 }
 .navitem {
@@ -155,4 +155,98 @@
   font-size: 1rem;
   color: rgba(239, 237, 232, 0.65);
   margin-top: 8px;
+}
+.card2 {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 34%;
+  left: 78%;
+}
+.ctxt1 {
+  color: white;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.ctxt2 {
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+.card2items {
+  padding: 17px 24px;
+}
+.rules {
+  max-width: 1044px;
+
+  margin: 0 auto;
+}
+.bg-main {
+  background-color: black;
+}
+.habits {
+  text-align: center;
+
+  padding: 5px;
+}
+.habitstxt {
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 100px;
+}
+.habitstxt2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 14px;
+}
+.fitnessimage {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+.fitnessimage div {
+  text-align: center;
+}
+.fitnessimage div img {
+  width: 180px;
+  height: 180px;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.Movementtxt {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.Movementtxt2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 6px;
+}
+
+/* Run an extra mile */
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexcontainer div img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  object-fit: cover;
 }
