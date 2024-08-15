@@ -240,13 +240,114 @@
 
 /* Run an extra mile */
 .flexcontainer {
+  background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px 60px;
+  border-radius: 28px;
+  margin-top: 100px;
 }
-.flexcontainer div img {
+.flextxt1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 120%;
+}
+.flextxt2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+}
+.flexitems {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.imagecontainer {
   width: 366px;
   height: 312px;
   border-radius: 18px;
+  overflow: hidden;
+}
+.imagecontainer img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  transform: scale(2.5) translate(-61px, 12%);
+}
+.flexitems button {
+  width: 224px;
+  height: 55px;
+  background-color: #e6533c;
+  border-radius: 42px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-style: none;
+}
+
+/* Tranings and exercises */
+
+.gridspan {
+  margin-top: 100px;
+}
+.gridcontents {
+  max-width: 676px;
+}
+
+.gspan1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 14px;
+}
+.gspancontainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.gridimages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 220px;
+  overflow: hidden;
+  margin-top: 58px;
+}
+.gspancontainer {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  /* transition: all 0.35s; */
+}
+.gspancontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gspancontainer:nth-child(1) {
+  grid-column: span 1;
+}
+.gspancontainer:nth-child(2) {
+  grid-column: span 2;
+}
+.gspancontainer:nth-child(3) {
+  grid-column: span 1;
+}
+.gspancontainer:nth-child(4) {
+  grid-column: span 2;
+}
+.gspancontainer:nth-child(5) {
+  grid-column: span 1;
+}
+.gspancontainer:nth-child(6) {
+  grid-column: span 1;
+}
+
+.gspancontainer:nth-child(1)::before {
+  background-color: rgb(6, 255, 210, 0.5);
 }
