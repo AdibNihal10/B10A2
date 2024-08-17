@@ -5,8 +5,10 @@
   } */
   .nav-items {
     /* padding: 50px 20px; */
-    width: 470px;
+    max-width: 470px;
     margin-bottom: 51px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .navbar {
     display: none;
@@ -31,11 +33,12 @@
     gap: 48px;
   }
   .card1 {
+    /* position: relative; */
     left: 10%;
-    top: 170%;
+    top: 90%;
   }
   .card2 {
-    top: 130%;
+    top: 60%;
     left: 55%;
     width: 146px;
     height: 75px;
@@ -57,12 +60,13 @@
     letter-spacing: 0.76px;
   }
   .bannercontent1 {
-    /* max-width: 352px; */
+    max-width: 352px;
     /* margin: 50px 20px; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2.8rem;
+    gap: 2.8rem; */
+    padding-left: 20px;
   }
   .fitness {
     color: rgb(255, 255, 255);
@@ -172,8 +176,8 @@
     gap: 20px;
   }
   .bg-trainers {
-    width: 353px;
-    margin-left: 50px;
+    max-width: 353px;
+    margin-left: 5px;
     padding: 35px;
   }
   .trainercontainer:nth-child(1) {
